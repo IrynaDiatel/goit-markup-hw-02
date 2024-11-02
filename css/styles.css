@@ -58,6 +58,9 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+h1 {
+  background: #2e2f42;
+}
 .hero {
   font-weight: 700;
   font-size: 56px;
@@ -66,11 +69,27 @@ a {
   text-align: center;
   color: #fff;
 }
+.order-service-button {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.order-service-button button:hover {
+  color: #404bbf;
+}
+
+.order-service-button button:focus {
+  color: #ffd700;
+}
 
 /*Our advantages*/
 
 .advantages {
-  background-color: #2e2f42;
+  background-color: #ffffff;
 }
 
 .advantages-section {
@@ -81,21 +100,8 @@ a {
   letter-spacing: 0.02em;
 }
 
-.advantages-button {
-  background-color: #4d5ae5;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
-}
-.advantages-button button:hover {
-  color: #404bbf;
-}
-
-.advantages-button button:focus {
-  color: #ffd700;
+.advantages-list {
+  background-color: #ffffff;
 }
 
 .advantage-title {
