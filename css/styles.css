@@ -65,9 +65,32 @@ a {
 /*Our advantages*/
 
 .advantages {
-  padding: 20px;
+  background-color: #2e2f42;
 }
 
+.advantages-section {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
+}
+
+.advantages-button {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #404bbf;
+  cursor: pointer;
+}
+.button:hover {
+  color: #ffd700; /* Колір тексту при наведенні */
+}
+.button:focus {
+  color: #ffd700; /* Колір тексту при фокусі */
+}
 .advantage-title {
   font-weight: 500;
   font-size: 20px;
@@ -85,11 +108,14 @@ a {
 }
 
 /*Our Team*/
+.section-team {
+  background-color: #f4f4fd;
+}
 
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
