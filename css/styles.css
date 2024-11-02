@@ -74,6 +74,7 @@ a {
   line-height: 1.07;
   text-align: center;
   color: #ffffff;
+  letter-spacing: 0.02em;
 }
 
 .advantages-button {
@@ -83,11 +84,10 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #404bbf;
   cursor: pointer;
 }
 .button:hover {
-  color: #ffd700; /* Колір тексту при наведенні */
+  color: #404bbf; /* Колір тексту при наведенні */
 }
 .button:focus {
   color: #ffd700; /* Колір тексту при фокусі */
