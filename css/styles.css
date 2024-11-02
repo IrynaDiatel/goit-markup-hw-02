@@ -21,15 +21,12 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
   color: #4d5ae5;
 }
 
 .header-logo .logo-part {
   color: #2e2f42;
-}
-
-.footer-logo .logo-part {
-  color: #f4f4fd;
 }
 
 /*nav*/
@@ -66,7 +63,6 @@ a {
 
 .advantages {
   background-color: #2e2f42;
-  letter-spacing: 0.02em;
 }
 
 .advantages-section {
@@ -86,12 +82,14 @@ a {
   color: #ffffff;
   cursor: pointer;
 }
-.button:hover {
-  color: #404bbf; /* Колір тексту при наведенні */
+.advantages-button button:hover {
+  color: #404bbf;
 }
-.button:focus {
-  color: #ffd700; /* Колір тексту при фокусі */
+
+.advantages-button button:focus {
+  color: #ffd700;
 }
+
 .advantage-title {
   font-weight: 500;
   font-size: 20px;
@@ -132,7 +130,7 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
+
   color: #2e2f42;
 }
 
@@ -141,7 +139,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
+
   color: #434455;
 }
 
@@ -157,6 +155,7 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .section-title {
@@ -186,5 +185,9 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.footer-logo .logo-part {
   color: #f4f4fd;
 }
