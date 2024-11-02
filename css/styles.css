@@ -151,15 +151,20 @@ a {
   width: 1128px;
   height: 1000px;
 }
+.section-our-portfolio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
 .section-title {
   font-weight: 500;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: center;
-  line-height: 1.11;
-  font-size: 36px;
-  text-transform: capitalize;
 }
 
 .portfolio-description {
