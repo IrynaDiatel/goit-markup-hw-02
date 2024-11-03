@@ -54,7 +54,7 @@ a {
   color: #434455;
 }
 h1 {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 .hero {
   font-weight: 700;
@@ -74,7 +74,7 @@ h1 {
   cursor: pointer;
 }
 .order-service-button button:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .order-service-button button:focus {
