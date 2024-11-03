@@ -73,11 +73,11 @@ h1 {
   color: #ffffff;
   cursor: pointer;
 }
-.order-service-button button:hover {
+.order-service-button:hover {
   background-color: #404bbf;
 }
 
-.order-service-button button:focus {
+.order-service-button:focus {
   background-color: #404bbf;
 }
 
